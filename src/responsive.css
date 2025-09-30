@@ -1,0 +1,143 @@
+/* 🌍 Global Responsive Styles */
+
+/* Tablets (up to 992px wide) */
+@media (max-width: 992px) {
+  /* Navbar */
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Visa Section */
+  .visa-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* Process Section (How It Works) */
+  .timeline {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .timeline-step::after {
+    display: none; /* remove connecting line */
+  }
+
+  /* Why Choose Us */
+  .why-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+
+  /* Testimonials */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  /* Partners (scroll slider) */
+  .partner-card {
+    min-width: 140px;
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  /* About Section */
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+  .about-image img {
+    max-width: 90%;
+  }
+
+  /* Inquiry Section */
+  .inquiry-container {
+    flex-direction: column;
+  }
+  .inquiry-image img {
+    height: 250px;
+    max-width: 100%;
+  }
+  .inquiry-form-container {
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+}
+
+/* Mobiles (up to 600px wide) */
+@media (max-width: 600px) {
+  /* Navbar */
+  .logo {
+    font-size: 20px;
+  }
+  .nav-links {
+    font-size: 14px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Visa Section */
+  .visa-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .visa-heading {
+    font-size: 32px;
+  }
+  .visa-subtitle {
+    font-size: 16px;
+  }
+
+  /* FAQ */
+  .faq-question {
+    font-size: 16px;
+  }
+  .faq-answer {
+    font-size: 14px;
+  }
+
+  /* Testimonials */
+  .testimonial-text {
+    font-size: 14px;
+  }
+  .testimonial-name {
+    font-size: 14px;
+  }
+
+  /* About Section */
+  .about-text h2 {
+    font-size: 24px;
+  }
+  .about-text p {
+    font-size: 14px;
+  }
+
+  /* Inquiry Form */
+  .inquiry-title {
+    font-size: 22px;
+  }
+  .inquiry-subtitle {
+    font-size: 14px;
+  }
+  .inquiry-form input,
+  .inquiry-form textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  /* Footer */
+  .footer-logo {
+    font-size: 22px;
+  }
+}

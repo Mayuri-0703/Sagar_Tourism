@@ -1,0 +1,81 @@
+/* .why-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f4f8fb;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #004466;
+  margin-bottom: 40px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.why-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+}
+
+.why-card h3 {
+  color: #ff6600;
+  margin-bottom: 10px;
+} */
+.why-section {
+  padding: 60px 20px;
+  background: #f4f8fb;
+}
+
+.why-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.why-left {
+  flex: 1;
+}
+
+.why-left h2 {
+  font-size: 28px;
+  color: #004466;
+  margin-bottom: 15px;
+}
+
+.why-left p {
+  font-size: 16px;
+  color: #555;
+}
+
+.why-right {
+  flex: 1;
+}
+
+.why-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-right li {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}

@@ -1,0 +1,46 @@
+
+/* ================= Visa Highlights ================= */
+.visa-highlights {
+  padding: 50px 20px;
+  background: linear-gradient(120deg, #f9f0ff, #f0f4f8);
+  border-radius: 30px;
+  position: relative;
+  overflow: visible;
+}
+
+.visa-highlights ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.visa-highlights li {
+  background: linear-gradient(135deg, #fff, #f3e5f5);
+  padding: 20px 15px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #6a1b9a;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.visa-highlights li::before {
+  content: "✔";
+  font-size: 1.3rem;
+  color: #7e57c2;
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+
+.visa-highlights li:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+  background: linear-gradient(135deg, #e1bee7, #ce93d8);
+}

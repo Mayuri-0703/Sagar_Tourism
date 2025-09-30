@@ -1,0 +1,77 @@
+
+/* ===== Travel Info Section ===== */
+.visa-travel-info {
+  margin: 90px auto;
+  padding: 40px;
+  max-width: 100%;
+  background: #f9fafb;
+  border-radius: 16px;
+  box-shadow: 0px 6px 14px rgba(0,0,0,0.08);
+}
+
+.visa-travel-info h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #0b3d91;
+  text-align: center;
+  font-weight: bold;
+}
+
+.travel-intro {
+  font-size: 1.15rem;
+  text-align: center;
+  color: #444;
+  margin-bottom: 35px;
+  line-height: 1.7;
+}
+
+.travel-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.travel-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.travel-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.travel-card img {
+  width: 120%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.travel-card-content {
+  padding: 15px;
+}
+
+.travel-card-content h3 {
+  font-size: 1.2rem;
+  color: #0b3d91;
+  margin-bottom: 8px;
+}
+
+.travel-card-content p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .visa-travel-info {
+    padding: 25px;
+  }
+  .travel-card img {
+    height: 150px;
+  }
+}

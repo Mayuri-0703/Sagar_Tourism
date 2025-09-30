@@ -1,0 +1,41 @@
+
+/* ================= Required Documents ================= */
+.visa-documents {
+  padding: 50px 20px;
+  background: linear-gradient(120deg, #e0f7fa, #f0f9ff);
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+}
+
+.visa-documents ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visa-documents li {
+  background: #fff;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #004aad;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  text-align: center;
+}
+
+.visa-documents li:hover {
+  transform: translateY(-10px) scale(1.08);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}

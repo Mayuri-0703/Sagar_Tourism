@@ -1,0 +1,68 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+/* Top header (logo only) */
+.top-header {
+  /* background-color:#4c706b;
+  color: #000000;
+  padding: 15px;
+  text-align: center;
+  font-size:30px;
+  height:90px;
+  margin:0; */
+  background-color:#4c706b;
+  color: #000000;
+  padding: 15px;
+  text-align: center;
+  font-size:30px;
+  height:90px;
+  margin:0
+}
+
+.logo {
+  font-size: 10px;
+  font-weight: bold;
+    width: 150px;   /* adjust as needed */
+  height: auto;  /* keeps the aspect ratio */
+  display: block;
+  margin: 0 20px; /* centers it inside top-header */
+  background: transparent;
+
+}
+
+/* Bottom header (nav links) */
+.bottom-header {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  margin:auto;
+  font-size: 20;
+ 
+
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #bb7140;
+}

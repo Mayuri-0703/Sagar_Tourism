@@ -1,0 +1,112 @@
+
+/* ================= Visa Form ================= */
+/* ===== Section Wrapper ===== */
+.visa-form-section {
+  width: 100%;
+  background: linear-gradient(135deg, #f0f7ff, #e6f0ff);
+  padding: 50px 4%;
+}
+
+.form-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+/* ===== Wrapper for Form + Image ===== */
+.form-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+/* ===== Left Side Form ===== */
+.form-box {
+  flex: 0 0 40%;   /* smaller width than before */
+  background: #ffffffec; /* light but not plain white */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #8a2985;
+  box-shadow: 0 0 6px rgba(0,119,255,0.15);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #8a2985;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #8a2985;
+  transform: scale(1.02);
+}
+
+/* ===== Right Side Image (circle) ===== */
+.form-image {
+  flex: 0 0 35%;  /* more space for image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-image img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transition: transform 0.3s;
+}
+
+.form-image img:hover {
+  transform: scale(1.05);
+}
+/* ===== Responsive Fix ===== */
+@media (max-width: 992px) {
+  .form-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-box {
+    flex: 1;
+    width: 100%;
+  }
+
+  .form-image {
+    margin-top: 20px;
+  }
+}

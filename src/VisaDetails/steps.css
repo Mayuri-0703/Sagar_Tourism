@@ -1,0 +1,49 @@
+
+/* ================= Steps Section ================= */
+.visa-steps {
+  padding: 60px 20px;
+  background: linear-gradient(120deg, #fff3e0, #fff8e1);
+  border-radius: 30px;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.visa-steps ol {
+  padding-left: 30px;
+}
+
+.visa-steps li {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.visa-steps li::before {
+  counter-increment: step-counter;
+  content: counter(step-counter);
+  position: absolute;
+  left: -45px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ff9800;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.visa-steps li:hover {
+  transform: translateX(5px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}

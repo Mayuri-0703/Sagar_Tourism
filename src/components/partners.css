@@ -1,0 +1,55 @@
+.partners-section {
+  padding: 70px 20px;
+  background: #ffffff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.partners-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #004466;
+  margin-bottom: 40px;
+}
+
+.partners-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.partners-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 20s linear infinite;
+}
+
+.partner-card {
+  background: #f4f4f4;
+  padding: 20px 40px;
+  margin: 0 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  white-space: nowrap;
+  min-width: 180px;
+  text-align: center;
+}
+
+.partner-card:hover {
+  background: #ff6600;
+  color: #fff;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

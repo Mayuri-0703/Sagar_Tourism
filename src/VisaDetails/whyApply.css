@@ -1,0 +1,57 @@
+/* ===== Why Apply Section ===== */
+/* ===== Why Apply Section (Simple + Footer Friendly) ===== */
+.why-apply {
+  margin: 60px auto 0;
+  padding: 40px 20px;
+  text-align: center;
+  background: #f8f9fa; /* light background to blend smoothly */
+}
+
+.why-apply h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #222; /* clean heading */
+}
+
+.why-apply ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px 40px;
+}
+
+.why-apply li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+  position: relative;
+  padding-left: 24px;
+  text-align: left;
+}
+
+/* checkmark style instead of box */
+.why-apply li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #0b3d91; /* matches footer theme */
+  font-weight: bold;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .why-apply ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .why-apply li {
+    padding-left: 22px;
+    text-align: center;
+  }
+}
