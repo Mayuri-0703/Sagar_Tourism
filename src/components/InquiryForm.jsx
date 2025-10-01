@@ -1,4 +1,5 @@
 import "./inquiry.css";
+import inquiryImg from "../assets/visa1.jpg";
 import visaImg from "../assets/visa1.jpg"; // 👈 put an image inside src/assets
 
 function InquiryForm() {
@@ -8,6 +9,7 @@ function InquiryForm() {
         
         {/* Left side - Image */}
         <div className="inquiry-image">
+          <img src={inquiryImg} alt="Visa Inquiry" />
           <img src={visaImg} alt="Visa Inquiry" />
         </div>
 
