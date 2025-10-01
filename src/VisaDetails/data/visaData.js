@@ -1,250 +1,9 @@
-// // src/data/visaData.js
-// const visaData = {
-//   dubai: {
-//     title: "Dubai Tourist / Work / Visit Visa",
-//     description: "Apply for Dubai visa easily. Fill the form below to start your application process.",
-//     video: "/Videos/Dubai2.mp4",
-//     image: "/Dubai.png",
-//     documents: [
-//       "Passport (valid for 6 months)",
-//       "Passport-size photograph",
-//       "Flight tickets",
-//       "Hotel booking"
-//     ],
-//     highlights: [
-//       "Fast processing",
-//       "Multiple entry options",
-//       "No hidden fees"
-//     ],
-//     steps: [
-//       "Fill the online form",
-//       "Upload required documents",
-//       "Pay the visa fee",
-//       "Receive confirmation email"
-//     ],
-//     tips: [
-//       "Apply at least 2 weeks in advance",
-//       "Check your passport validity",
-//       "Ensure all documents are scanned clearly"
-//     ],
-//     travelInfo: {
-//     intro: "Dubai is a city of wonders where modern skyscrapers meet cultural heritage. From luxurious shopping malls to golden deserts, Dubai has something for everyone.",
-//     highlights: [
-//       {
-//         title: "Burj Khalifa",
-//         img: "/images/dubai/burj.jpg",
-//         desc: "The tallest building in the world – a must-see landmark."
-//       },
-//       {
-//         title: "Desert Safari",
-//         img: "/images/dubai/desert.jpg",
-//         desc: "Experience dune bashing, camel rides, and traditional shows."
-//       },
-//       {
-//         title: "Dubai Mall",
-//         img: "/images/dubai/mall.jpg",
-//         desc: "Shop, dine, and explore the world’s largest shopping mall."
-//       },
-//       {
-//         title: "Palm Jumeirah",
-//         img: "/images/dubai/palm.jpg",
-//         desc: "An artificial island known for luxury resorts and beaches."
-//       }
-//     ]
-//   },
-//   usa: {
-//     title: "USA Business & Tourist Visa (B1/B2)",
-//     description: "Apply for USA visa. Interview required for approval.",
-//     video: "/Videos/USA.mp4",
-//     image: "/USA.jpg",
-//     documents: [
-//       "Passport (valid for 6 months)",
-//       "Passport-size photograph",
-//       "DS-160 Form confirmation",
-//       "Interview appointment letter",
-//       "Financial statements"
-//     ],
-//     highlights: [
-//       "Requires personal interview",
-//       "Multiple entry B1/B2 options",
-//       "Processing 5-10 working days"
-//     ],
-//     steps: [
-//       "Fill DS-160 online form",
-//       "Schedule visa interview",
-//       "Attend the interview at the embassy",
-//       "Receive your visa"
-//     ],
-//     tips: [
-//       "Prepare financial documents",
-//       "Be honest during the interview",
-//       "Carry supporting documents"
-//     ],
-//     travelInfo: "USA offers a variety of attractions for tourists, including national parks, cities, and cultural experiences."
-//   },
-
-//   schengen: {
-//     title: "Schengen Visa",
-//     description: "Travel across 26 European countries. Processing: 15 days.",
-//     video: null,
-//     image: "/Schengen.jpg",
-//     documents: [
-//       "Passport (valid for 3 months beyond stay)",
-//       "Passport-size photograph",
-//       "Travel insurance",
-//       "Flight & hotel booking",
-//       "Proof of financial means"
-//     ],
-//     highlights: [
-//       "Single visa for multiple countries",
-//       "Short stay up to 90 days",
-//       "Easy to apply with all documents"
-//     ],
-//     steps: [
-//       "Fill the application form",
-//       "Book appointment at embassy/consulate",
-//       "Submit documents & biometrics",
-//       "Receive visa approval"
-//     ],
-//     tips: [
-//       "Travel insurance is mandatory",
-//       "Book appointment in advance",
-//       "Check specific country requirements"
-//     ],
-//     travelInfo: "Schengen countries include France, Germany, Italy, Spain, and 22 more European nations, making travel easy."
-//   },
-
-//   thailand: {
-//     title: "Thailand Tourist / e-Visa",
-//     description: "Tourist, Visa on Arrival & e-Visa available. Processing: 2-5 days.",
-//     video: null,
-//     image: "/Thailand.webp",
-//     documents: [
-//       "Passport (valid for 6 months)",
-//       "Passport-size photograph",
-//       "Flight tickets",
-//       "Hotel booking"
-//     ],
-//     highlights: [
-//       "Tourist visa up to 60 days",
-//       "Quick e-Visa processing",
-//       "Visa on Arrival option available"
-//     ],
-//     steps: [
-//       "Fill online application",
-//       "Upload required documents",
-//       "Pay visa fee",
-//       "Receive e-Visa approval"
-//     ],
-//     tips: [
-//       "Ensure hotel bookings match your stay",
-//       "Check for Visa on Arrival eligibility",
-//       "Carry extra copies of documents"
-//     ],
-//     travelInfo: "Thailand is known for its beaches, temples, and rich cultural experiences."
-//   },
-
-//   malaysia: {
-//     title: "Malaysia Tourist / eNTRI / Work Visa",
-//     description: "Processing: 3-7 days. Fill form below to apply.",
-//     video: null,
-//     image: "/Malaysia.jfif",
-//     documents: [
-//       "Passport (valid for 6 months)",
-//       "Passport-size photograph",
-//       "Flight tickets",
-//       "Hotel booking",
-//       "Work contract (if applying for work visa)"
-//     ],
-//     highlights: [
-//       "eNTRI visa for short stay",
-//       "Quick processing 3-7 days",
-//       "Multiple visa types"
-//     ],
-//     steps: [
-//       "Fill online visa form",
-//       "Upload documents",
-//       "Pay visa fee",
-//       "Receive approval via email"
-//     ],
-//     tips: [
-//       "Ensure passport validity",
-//       "Work visa requires employer documents",
-//       "Apply in advance"
-//     ],
-//     travelInfo: "Malaysia is famous for its beaches, rainforests, and multicultural cities like Kuala Lumpur."
-//   },
-
-//   vietnam: {
-//     title: "Vietnam Tourist / e-Visa",
-//     description: "Processing: 3-5 days. Apply online quickly.",
-//     video: null,
-//     image: "/Vietnam.jfif",
-//     documents: [
-//       "Passport (valid for 6 months)",
-//       "Passport-size photograph",
-//       "Flight tickets",
-//       "Hotel booking",
-//       "Visa approval letter"
-//     ],
-//     highlights: [
-//       "Online e-Visa available",
-//       "Stay up to 30 days",
-//       "Fast approval process"
-//     ],
-//     steps: [
-//       "Fill online e-Visa form",
-//       "Upload documents",
-//       "Pay visa fee",
-//       "Receive visa approval"
-//     ],
-//     tips: [
-//       "Check visa validity before travel",
-//       "Carry printout of approval letter",
-//       "Apply at least a week in advance"
-//     ],
-//     travelInfo: "Vietnam offers beautiful landscapes, historic cities, and vibrant street food culture."
-//   },
-
-//   srilanka: {
-//     title: "Sri Lanka ETA Visa",
-//     description: "Electronic Travel Authorization. Processing: 1-3 days.",
-//     video: null,
-//     image: "/Srilanka.jfif",
-//     documents: [
-//       "Passport (valid for 6 months)",
-//       "Passport-size photograph",
-//       "Flight tickets",
-//       "Hotel booking"
-//     ],
-//     highlights: [
-//       "ETA valid for 30 days",
-//       "Quick online processing",
-//       "Tourist and business options"
-//     ],
-//     steps: [
-//       "Fill ETA online form",
-//       "Submit documents & payment",
-//       "Receive ETA via email",
-//       "Travel to Sri Lanka"
-//     ],
-//     tips: [
-//       "Apply at least 3 days in advance",
-//       "Check passport validity",
-//       "Carry ETA printout while traveling"
-//     ],
-//     travelInfo: "Sri Lanka is known for its beautiful beaches, tea plantations, and ancient temples."
-//   }
-// };
-
-// export default visaData;
-
 // src/data/visaData.js
 const visaData = {
   dubai: {
     title: "Dubai Tourist / Work / Visit Visa",
     description: "Apply for Dubai visa easily. Fill the form below to start your application process.",
-    video: "/VisaDetails/Videos/DUBAI.mp4",
+    video: "https://drive.google.com/file/d/1AYnGy9VBQe78R1BDvVru_36gGvGAPTSN/preview",
     image: "/Dubai.png",
     documents: [
       "Passport (valid for 6 months)",
@@ -294,7 +53,7 @@ const visaData = {
   usa: {
     title: "USA Business & Tourist Visa (B1/B2)",
     description: "Apply for USA visa. Interview required for approval.",
-    video: "/VisaDetails/Videos/USA1.mp4",
+    video: "https://drive.google.com/file/d/1wJOZDujbi4ThZG4ujoV2068q52fRJ_Ie/preview",
     image: "/USA.jpg",
     documents: [
       "Passport (valid for 6 months)",
@@ -341,7 +100,7 @@ const visaData = {
   schengen: {
     title: "Schengen Visa",
     description: "Travel across 26 European countries. Processing: 15 days.",
-    video: "/VisaDetails/Videos/SCHENGAN.mp4",
+    video: "https://drive.google.com/file/d/1i-jjx-wv-uMCKvCScOu1RyuOIdMxfuwm/preview",
     image: null,
     documents: [
       "Passport (valid for 3 months beyond stay)",
@@ -388,7 +147,7 @@ const visaData = {
   thailand: {
     title: "Thailand Tourist / e-Visa",
     description: "Tourist, Visa on Arrival & e-Visa available. Processing: 2-5 days.",
-    video: "/VisaDetails/Videos/THAILAND.mp4",
+    video: "https://drive.google.com/file/d/11-l2ZLql24IWoJt2PWDdFnIA2Ol7TwzV/preview",
     image: null,
     documents: ["Passport (valid for 6 months)", "Passport-size photograph", "Flight tickets", "Hotel booking"],
     highlights: ["Tourist visa up to 60 days", "Quick e-Visa processing", "Visa on Arrival option available"],
@@ -428,7 +187,7 @@ const visaData = {
   malaysia: {
     title: "Malaysia Tourist / eNTRI / Work Visa",
     description: "Processing: 3-7 days. Fill form below to apply.",
-    video: "/VisaDetails/Videos/MALAYSIA.mp4",
+    video: "https://drive.google.com/file/d/1nHqYL3K8bbhbe1iR_0kdGdtT4mibH1X-/preview",
     image: null,
     documents: [
       "Passport (valid for 6 months)",
@@ -470,7 +229,7 @@ const visaData = {
   vietnam: {
     title: "Vietnam Tourist / e-Visa",
     description: "Processing: 3-5 days. Apply online quickly.",
-    video: "/VisaDetails/Videos/VIETNAM.mp4",
+    video: "https://drive.google.com/file/d/1kfsSk6rsXzKeUuGkq3EsQO0c95tGCapp/preview",
     image: null,
     documents: [
       "Passport (valid for 6 months)",
@@ -512,7 +271,7 @@ const visaData = {
   srilanka: {
     title: "Sri Lanka ETA Visa",
     description: "Electronic Travel Authorization. Processing: 1-3 days.",
-    video: "/VisaDetails/Videos/SRILANKA.mp4",
+    video: "https://drive.google.com/file/d/1xfmvWfZP4mY9af115or1rmXMfk6Zabm2/preview",
     image: null,
     documents: ["Passport (valid for 6 months)", "Passport-size photograph", "Flight tickets", "Hotel booking"],
     highlights: ["ETA valid for 30 days", "Quick online processing", "Tourist and business options"],
