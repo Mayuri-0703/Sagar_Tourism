@@ -1,7 +1,7 @@
 
 import { useParams } from "react-router-dom";
 import { useRef, useEffect } from "react"; // ← added useEffect
-import visaData from "./data/visaData.js";
+import visaData from "../data/visaData.js";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./visaDetails.css";
