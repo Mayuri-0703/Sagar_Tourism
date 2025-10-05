@@ -86,13 +86,14 @@ header {
   padding: 15px;
   height: 90px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 .logo {
   width: 150px;
-  height: auto;
+  height: 90px;
+  border-radius: 50%;
 }
 
 /* Bottom Header */

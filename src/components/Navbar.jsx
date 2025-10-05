@@ -1,13 +1,13 @@
 // src/components/Navbar.jsx
 import './navbar.css';
-import logo from '../assets/logo.png'
+import logo from '../assets/Uday_Logo.jpg'
 
 function Navbar() {
   return (
     <header>
       {/* Top header: only logo */}
       <div className="top-header">
-        <img src={logo} alt="Sagar Tourism Logo" className="logo" />
+        <img src={logo} alt="Uday" className="logo" />
       </div>
       {/* Bottom header: navigation links */}
       <div className="bottom-header">
