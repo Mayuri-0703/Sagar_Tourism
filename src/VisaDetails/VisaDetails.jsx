@@ -42,6 +42,8 @@ function VisaDetails() {
     <>
       <Navbar />
       <Hero country={country} data={data} scrollToForm={scrollToForm} />
+
+      
       <Steps steps={data.steps} />
       <div className="visa-top-sections">
         <Documents documents={data.documents} />

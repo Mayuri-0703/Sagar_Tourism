@@ -3,13 +3,21 @@ import "./hero.css";
 function Hero({ country, data, scrollToForm }) {
   return (
     <section className="visa-hero">
-      {data.video ? (
+      {/* {data.video ? (
         <video autoPlay loop muted className="hero-video">
           <source src={data.video} type="video/mp4" />
         </video>
       ) : (
         <img src={data.image} alt={country} className="hero-image" />
+      )} */}
+      {data.video ? (
+        <video autoPlay loop muted className="hero-video">
+        <source src={data.video} type="video/mp4" />
+      </video>
+      ) : (
+        <img src={data.image} alt={country} className="hero-image" />
       )}
+
       <div className="hero-overlay">
         <h1>{country} Visa Application</h1>
         <p>{data.description}</p>
@@ -20,5 +28,6 @@ function Hero({ country, data, scrollToForm }) {
     </section>
   );
 }
+
 
 export default Hero;

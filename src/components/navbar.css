@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ header {
   width: 100%;
 }
 
-/* Top header (logo only) */
+Top header (logo only)
 .top-header {
   /* background-color:#4c706b;
   color: #000000;
@@ -18,36 +18,36 @@ header {
   font-size:30px;
   height:90px;
   margin:0; */
-  background-color:#4c706b;
+  /* background-color:#4c706b;
   color: #000000;
   padding: 15px;
   text-align: center;
   font-size:30px;
   height:90px;
   margin:0
-}
+} */
 
-.logo {
+/* .logo {
   font-size: 10px;
   font-weight: bold;
-    width: 150px;   /* adjust as needed */
-  height: auto;  /* keeps the aspect ratio */
-  display: block;
+  width: 150px;   /* adjust as needed */
+  /* height: auto;  /* keeps the aspect ratio */
+  /* display: block;
   margin: 0 20px; /* centers it inside top-header */
-  background: transparent;
+  /* background: transparent; */ */
 
-}
+/* } */ 
 
 /* Bottom header (nav links) */
-.bottom-header {
+/* .bottom-header {
   background-color: #f4f4f4;
   padding: 20px 0;
   margin:auto;
   font-size: 20;
  
 
-}
-
+} */
+/* 
 .nav-links {
   display: flex;
   justify-content: center;
@@ -55,8 +55,8 @@ header {
   gap: 20px;
   justify-content: space-evenly;
   font-size: 20px;
-}
-
+} */
+/* 
 .nav-links a {
   text-decoration: none;
   color: #333;
@@ -65,4 +65,101 @@ header {
 
 .nav-links a:hover {
   color: #bb7140;
+} */ 
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* Header */
+header {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Top Header: Logo only */
+.top-header {
+  background-color: #4c706b;
+  padding: 15px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+/* Bottom Header */
+.bottom-header {
+  background-color: #f4f4f4;
+  padding: 15px 0;
+  position: relative;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #bb7140;
+}
+
+/* Hamburger Menu (Hidden on Desktop) */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+/* ===================== MOBILE VIEW ===================== */
+@media (max-width: 768px) {
+  /* Show hamburger menu */
+  .menu-icon {
+    display: block;
+  }
+
+  /* Hide nav links initially */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  /* When active (menu opened) */
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
