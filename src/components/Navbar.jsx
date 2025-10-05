@@ -27,7 +27,7 @@
 
 import { useState } from "react";
 import "./navbar.css";
-import logo from "../assets/uday_logo.jpg";
+import logo from "../assets/Uday_Logo.jpg";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
