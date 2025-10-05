@@ -37,6 +37,8 @@ function Navbar() {
       {/* Top Header */}
       <div className="top-header">
         <img src={logo} alt="Sagar Tourism Logo" className="logo" />
+        <br></br>
+          <h1 className="brand-name">Uday</h1>
         {/* Hamburger Icon */}
         <div
           className={`hamburger ${menuOpen ? "active" : ""}`}

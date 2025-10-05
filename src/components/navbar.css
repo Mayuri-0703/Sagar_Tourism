@@ -105,10 +105,16 @@
 header {
   width: 100%;
 }
-
+.brand-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff; /* you can change this */
+  letter-spacing: 1px;
+  margin-right: auto;
+}
 /* Top header */
 .top-header {
-  background-color: #4c706b;
+  background-color: #c098b9;
   color: #000;
   padding: 15px 20px;
   display: flex;
@@ -205,5 +211,13 @@ header {
   .nav-links a {
     color: white;
     font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .brand-name {
+    font-size: 20px;
+  }
+  .logo {
+    width: 100px;
   }
 }
