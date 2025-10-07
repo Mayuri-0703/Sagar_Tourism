@@ -134,6 +134,7 @@ header {
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
+
 }
 
 .hamburger span {
@@ -165,9 +166,10 @@ header {
 
 .nav-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 30px;
   list-style: none;
+  font-size: 30px;
 }
 
 .nav-links a {
@@ -180,6 +182,86 @@ header {
 
 .nav-links a:hover {
   color: #bb7140;
+}
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #998097;
+  padding: 10px 25px;
+  height: 80px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.brand-name {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Right section with WhatsApp and Hamburger */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.whatsapp-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  background: #25d366;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-link:hover {
+  background: #1da851;
+}
+
+.whatsapp-icon {
+  font-size: 30px;
+  margin-right: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .top-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    height: auto;
+  }
+
+  .right-section {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .whatsapp-link {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .whatsapp-icon {
+    font-size: 18px;
+  }
 }
 
 /* 🌙 Responsive (Mobile View) */
