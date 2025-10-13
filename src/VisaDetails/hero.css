@@ -1,4 +1,9 @@
 /* ================= Hero Section (unchanged) ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .visa-hero {
   position: relative;
   height: 100vh;
@@ -9,12 +14,19 @@
   overflow: hidden;
 }
 
-.hero-video,
+/* .hero-video,
 .hero-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 30px;
+} */
+.hero-video,
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0; /* remove curve */
 }
 
 .hero-overlay {

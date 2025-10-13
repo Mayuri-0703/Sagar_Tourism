@@ -62,7 +62,7 @@ function Navbar() {
         {/* Right side: WhatsApp icon */}
         <div className="right-section">
           <a
-            href="https://wa.me/8830297463" // ✅ replace with your number
+            href="https://wa.me/8668571697" // ✅ replace with your number
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp-link"

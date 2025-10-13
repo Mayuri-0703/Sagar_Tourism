@@ -303,3 +303,49 @@ header {
     width: 100px;
   }
 }
+@media (max-width: 768px) {
+  .top-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 10px 15px;
+  }
+
+  .left-section {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+  }
+
+  .right-section {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .whatsapp-link {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .whatsapp-icon {
+    font-size: 18px;
+  }
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}

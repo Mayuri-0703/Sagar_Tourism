@@ -1,3 +1,7 @@
+*{
+  margin:0;
+  padding: 0;
+}
 .about-section {
   padding: 60px 20px;
   background: #fff;
@@ -58,7 +62,7 @@
 }
 
 .about-btn:hover {
-  background: #e65500;
+  background: #45174b;
 }
 
 /* Responsive */

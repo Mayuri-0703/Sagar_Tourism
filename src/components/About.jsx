@@ -23,7 +23,14 @@ function About() {
             From quick visa approvals to personalized travel support, 
             our mission is to provide hassle-free services for every traveler.
           </p>
-          <button className="about-btn">Know More</button>
+
+                    <a
+            href="https://sagarmarine.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="about-btn">Know More</button>
+          </a>
         </div>
       </div>
     </section>

@@ -1,5 +1,10 @@
 
 /* ================= Visa Highlights ================= */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 .visa-highlights {
   padding: 50px 20px;
   background: linear-gradient(120deg, #f9f0ff, #f0f4f8);

@@ -1,6 +1,11 @@
 
 /* ================= Required Documents, Tips, Why Apply ================= */
 /* ================= Top Sections (Documents + Highlights) ================= */
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
 .visa-top-sections {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
