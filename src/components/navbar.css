@@ -181,13 +181,13 @@ header {
 }
 
 .nav-links a:hover {
-  color: #bb7140;
+  color: #834280;
 }
 .top-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #998097;
+  background-color: #946190;
   padding: 10px 25px;
   height: 80px;
 }
@@ -272,7 +272,7 @@ header {
 
   .bottom-header {
     display: none;
-    background: #4c706b;
+    background: #997296;
     width: 100%;
   }
 
