@@ -18,7 +18,8 @@ import WhyApply from "./WhyApply";
 
 function VisaDetails() {
   const { country } = useParams();
-  const data = visaData[country.toLowerCase()];
+  // const data = visaData[country.toLowerCase()];
+  const data = visaData[country] || visaData[country.toUpperCase()];
   const formRef = useRef();
 
   // Set country attribute for CSS backgrounds

@@ -13,6 +13,7 @@ const images = [
 function Slider() {
   return (
     <section className="slider-section">
+      <br></br>
       <h2 className="slider-title">🌍 Explore Our Popular Destinations</h2>
       <div className="slider-container">
         <div className="slider-track">

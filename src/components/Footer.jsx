@@ -29,10 +29,10 @@ function Footer() {
         {/* Right - Contact */}
         <div className="footer-contact">
           <h3>Contact Us</h3>
-          <p>📍 Shree Ganesh Galaxy, Office, 302, Alandi Rd,Laxmi-Narayan Nagar,
-            Wadmukhwadi,Charholi Budruk,Pimpri-Chinchwad,Pune,Maharashtra 412105.</p>
-          <p>📞 +91 7972672538 </p>
-          <p>📞     08668571697</p>
+          <p>📍 Shree Ganesh Galaxy, Office, 302, Alandi Rd,
+            Wadmukhwadi,Charholi Budruk,Pimpri-Chinchwad,Pune,412105.</p>
+          <p>📞 +91 8668571697</p>
+          <p>📞     9762032974</p>
           <p>📧 connect@sagarmarine.in</p>
 
           <div className="social-icons">
