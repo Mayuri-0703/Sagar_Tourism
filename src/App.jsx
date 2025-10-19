@@ -1,8 +1,5 @@
-
-
 // import { Routes, Route } from "react-router-dom";
 // import { useState } from "react";
-
 // import Navbar from "./components/Navbar";
 // import About from "./components/About";
 // import Slider from "./components/Slider";
@@ -14,44 +11,52 @@
 // import InquiryForm from "./components/InquiryForm";
 // import Partners from "./components/Partners";
 // import Footer from "./components/Footer";
-// import VisaDetails from "./components/VisaDetails"; // ✅ Import reusable VisaDetails page
+// import VisaDetails from "./VisaDetails/VisaDetails";
+// import Contact from "./components/Contact";
+
 
 // function App() {
 //   const [selectedCountry, setSelectedCountry] = useState(null);
 
 //   return (
-//     <Routes>
-//       {/* Home Page */}
-//       <Route
-//         path="/"
-//         element={
-//           <>
-//             <Navbar />
-//             <Slider />
-//             <About />
-//             <VisaSection />
-//             <ProcessSection />
-//             <WhyChooseUs />
-//             <FaqSection />
-//             <Testimonials />
-//             <InquiryForm />
-//             <Partners />
-//             <Footer />
-//           </>
-//         }
-//       />
+//     <>
+//       <Navbar />
+//       <Routes>
+//         {/* 🏠 Home Page */}
+//         <Route
+//           path="/"
+//           element={
+//             <>
+//               <Slider />
+//               <About />
+//               <VisaSection />
+//               <ProcessSection />
+//               <WhyChooseUs />
+//               <FaqSection />
+//               <Testimonials />
+//               <InquiryForm />
+//               <Partners />
+//               <Footer />
+//             </>
+//           }
+//         />
 
-//       {/* Visa Details Page */}
-//       <Route path="/visa/:country" element={<VisaDetails />} />
-//     </Routes>
+//         {/* 📘 About Page */}
+//         <Route path="/about" element={<About />} />
+
+//         {/* 📞 Contact Page */}
+//         <Route path="/contact" element={<><Navbar/><Contact /><Footer /></>} />
+
+//         {/* 🌍 Visa Details Page */}
+//         <Route path="/visa/:country" element={<VisaDetails />} />
+//       </Routes>
+//     </>
 //   );
 // }
 
 // export default App;
-
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
-
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Slider from "./components/Slider";
@@ -63,37 +68,59 @@ import Testimonials from "./components/Testimonials";
 import InquiryForm from "./components/InquiryForm";
 import Partners from "./components/Partners";
 import Footer from "./components/Footer";
-
-import VisaDetails from "./VisaDetails/VisaDetails"; // ✅ correct path
+import VisaDetails from "./VisaDetails/VisaDetails";
+import Contact from "./components/Contact";
 
 function App() {
   const [selectedCountry, setSelectedCountry] = useState(null);
 
   return (
-    <Routes>
-      {/* Home Page */}
-      <Route
-        path="/"
-        element={
-          <>
-            <Navbar />
-            <Slider />
-            <About />
-            <VisaSection />
-            <ProcessSection />
-            <WhyChooseUs />
-            <FaqSection />
-            <Testimonials />
-            <InquiryForm />
-            <Partners />
-            <Footer />
-          </>
-        }
-      />
+    <>
+      <Navbar />
 
-      {/* Visa Details Page */}
-      <Route path="/visa/:country" element={<VisaDetails />} />
-    </Routes>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Slider />
+              <About />
+              <VisaSection />
+              <ProcessSection />
+              <WhyChooseUs />
+              <FaqSection />
+              <Testimonials />
+              <InquiryForm />
+              <Partners />
+              <Footer />
+            </>
+          }
+        />
+
+        <Route
+          path="/about"
+          element={
+            <>
+              <About />
+              <Footer />
+            </>
+          }
+        />
+
+        <Route
+          path="/contact"
+          element={
+            <>
+              <Navbar />
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
+
+        <Route path="/visa/:country" element={<VisaDetails />} />
+      </Routes>
+    </>
   );
 }
 
