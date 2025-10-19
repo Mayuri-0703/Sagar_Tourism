@@ -7,8 +7,7 @@ const visaData = {
     documents: [
       "Passport (valid for 6 months)",
       "Passport-size photograph",
-      "Flight tickets",
-      "Hotel booking"
+      "Travel Details",
     ],
     highlights: ["Fast processing", "Multiple entry options", "No hidden fees"],
     steps: [
@@ -57,9 +56,6 @@ const visaData = {
     documents: [
       "Passport (valid for 6 months)",
       "Passport-size photograph",
-      "DS-160 Form confirmation",
-      "Interview appointment letter",
-      "Financial statements"
     ],
     highlights: ["Requires personal interview", "Multiple entry B1/B2 options", "Processing 5-10 working days"],
     steps: [
@@ -102,18 +98,21 @@ const visaData = {
     video: "https://drive.google.com/uc?export=download&id=1i-jjx-wv-uMCKvCScOu1RyuOIdMxfuwm",
     image: null,
     documents: [
-      "Passport (valid for 3 months beyond stay)",
+      "A Completed Application Form",
+      " Valid Passport",
       "Passport-size photograph",
-      "Travel insurance",
-      "Flight & hotel booking",
-      "Proof of financial means"
+      "Travel Itinerary along with Proof of Accomodation",
+      "FInancial Means",
+      "Valid Travel Insurance Policy"
     ],
     highlights: ["Single visa for multiple countries", "Short stay up to 90 days", "Easy to apply with all documents"],
     steps: [
       "Fill the application form",
-      "Book appointment at embassy/consulate",
-      "Submit documents & biometrics",
-      "Receive visa approval"
+      "Passport-sized Photograph",
+      "Travel Itinerary",
+      "Proof of Accommodation",
+      "Financial Means",
+      "Travel Insurance Policy"
     ],
     tips: ["Travel insurance is mandatory", "Book appointment in advance", "Check specific country requirements"],
     travelInfo: {
@@ -148,7 +147,7 @@ const visaData = {
     description: "Tourist, Visa on Arrival & e-Visa available. Processing: 2-5 days.",
     video: "https://drive.google.com/uc?export=download&id=11-l2ZLql24IWoJt2PWDdFnIA2Ol7TwzV",
     image: null,
-    documents: ["Passport (valid for 6 months)", "Passport-size photograph", "Flight tickets", "Hotel booking"],
+    documents: ["Passport (valid for 6 months)", "Passport-size photograph", "Flight or Travel Details", "Accomodation Details"],
     highlights: ["Tourist visa up to 60 days", "Quick e-Visa processing", "Visa on Arrival option available"],
     steps: ["Fill online application", "Upload required documents", "Pay visa fee", "Receive e-Visa approval"],
     tips: [
@@ -189,11 +188,11 @@ const visaData = {
     video: "https://drive.google.com/uc?export=download&id=1nHqYL3K8bbhbe1iR_0kdGdtT4mibH1X-",
     image: null,
     documents: [
-      "Passport (valid for 6 months)",
-      "Passport-size photograph",
-      "Flight tickets",
-      "Hotel booking",
-      "Work contract (if applying for work visa)"
+      "Valid Passport",
+      "Completed Application Form",
+      "Recent Passport Photos",
+      "Flight Itinerary",
+      "Proof of Accomodation"
     ],
     highlights: ["eNTRI visa for short stay", "Quick processing 3-7 days", "Multiple visa types"],
     steps: ["Fill online visa form", "Upload documents", "Pay visa fee", "Receive approval via email"],
@@ -232,10 +231,7 @@ const visaData = {
     image: null,
     documents: [
       "Passport (valid for 6 months)",
-      "Passport-size photograph",
-      "Flight tickets",
-      "Hotel booking",
-      "Visa approval letter"
+      "Passport-size photograph"
     ],
     highlights: ["Online e-Visa available", "Stay up to 30 days", "Fast approval process"],
     steps: ["Fill online e-Visa form", "Upload documents", "Pay visa fee", "Receive visa approval"],
@@ -272,7 +268,7 @@ const visaData = {
     description: "Electronic Travel Authorization. Processing: 1-3 days.",
     video: "https://drive.google.com/uc?export=download&id=1xfmvWfZP4mY9af115or1rmXMfk6Zabm2",
     image: null,
-    documents: ["Passport (valid for 6 months)", "Passport-size photograph", "Flight tickets", "Hotel booking"],
+    documents: ["Passport (valid for 6 months)", "Passport-size photograph"],
     highlights: ["ETA valid for 30 days", "Quick online processing", "Tourist and business options"],
     steps: ["Fill ETA online form", "Submit documents & payment", "Receive ETA via email", "Travel to Sri Lanka"],
     tips: ["Apply at least 3 days in advance", "Check passport validity", "Carry ETA printout while traveling"],
