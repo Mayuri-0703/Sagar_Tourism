@@ -510,7 +510,8 @@ header {
 }
 
 .dropdown li:hover {
-  background: #f3e8ff;
+  background: #b38fb1;
+ 
 }
 
 /* Mobile fixes */
@@ -522,7 +523,9 @@ header {
   .dropdown {
     position: static;
     box-shadow: none;
-    background: #fff;
+    /* background: #fff; */
+    background: #946190;
+     color:#fff;
   }
 
   .services-title {

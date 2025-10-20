@@ -1,60 +1,3 @@
-// import { Routes, Route } from "react-router-dom";
-// import { useState } from "react";
-// import Navbar from "./components/Navbar";
-// import About from "./components/About";
-// import Slider from "./components/Slider";
-// import VisaSection from "./components/VisaSection";
-// import ProcessSection from "./components/ProcessSection";
-// import WhyChooseUs from "./components/WhyChooseUs";
-// import FaqSection from "./components/FaqSection";
-// import Testimonials from "./components/Testimonials";
-// import InquiryForm from "./components/InquiryForm";
-// import Partners from "./components/Partners";
-// import Footer from "./components/Footer";
-// import VisaDetails from "./VisaDetails/VisaDetails";
-// import Contact from "./components/Contact";
-
-
-// function App() {
-//   const [selectedCountry, setSelectedCountry] = useState(null);
-
-//   return (
-//     <>
-//       <Navbar />
-//       <Routes>
-//         {/* 🏠 Home Page */}
-//         <Route
-//           path="/"
-//           element={
-//             <>
-//               <Slider />
-//               <About />
-//               <VisaSection />
-//               <ProcessSection />
-//               <WhyChooseUs />
-//               <FaqSection />
-//               <Testimonials />
-//               <InquiryForm />
-//               <Partners />
-//               <Footer />
-//             </>
-//           }
-//         />
-
-//         {/* 📘 About Page */}
-//         <Route path="/about" element={<About />} />
-
-//         {/* 📞 Contact Page */}
-//         <Route path="/contact" element={<><Navbar/><Contact /><Footer /></>} />
-
-//         {/* 🌍 Visa Details Page */}
-//         <Route path="/visa/:country" element={<VisaDetails />} />
-//       </Routes>
-//     </>
-//   );
-// }
-
-// export default App;
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
@@ -76,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+    <Navbar />
 
       <Routes>
         <Route
@@ -108,12 +51,12 @@ function App() {
         />
 
         <Route
-          path="/contact"
+          path="/Contact"
           element={
             <>
-              <Navbar />
               <Contact />
-              <Footer />
+              <Footer/>
+           
             </>
           }
         />

@@ -41,7 +41,6 @@ function VisaDetails() {
 
   return (
     <>
-      <Navbar />
       <Hero country={country} data={data} scrollToForm={scrollToForm} />
 
       

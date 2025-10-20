@@ -293,6 +293,7 @@ function Navbar() {
   if (hideNavbar) return null;
 
   return (
+
     <header>
       {/* Top Header */}
       <div className="top-header">
