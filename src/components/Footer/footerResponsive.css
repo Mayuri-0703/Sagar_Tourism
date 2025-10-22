@@ -1,0 +1,24 @@
+/* Mobile */
+@media (max-width: 600px) {
+  .footer {
+    padding: 40px 10px 15px;
+  }
+
+  .footer-logo {
+    font-size: 22px;
+  }
+
+  .footer-about p,
+  .footer-contact p {
+    font-size: 15px;
+  }
+
+  .footer-links h3,
+  .footer-contact h3 {
+    font-size: 17px;
+  }
+
+  .footer-bottom {
+    font-size: 14px;
+  }
+}

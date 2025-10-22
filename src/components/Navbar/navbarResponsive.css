@@ -1,0 +1,114 @@
+/* =================== RESPONSIVE DESIGN =================== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .bottom-header.show .nav-links {
+    display: flex;
+    background: #946190;
+  }
+
+  .nav-links li a,
+  .nav-links li span {
+    color: white;
+    font-size: 20px;
+  }
+
+  /* Dropdown (Mobile) */
+  .dropdown-menu {
+    position: static;
+    background: #b182b0;
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 0;
+  }
+
+  .dropdown-menu li {
+    text-align: center;
+  }
+
+  .dropdown-menu li a {
+    color: #fff;
+    font-size: 18px;
+  }
+}
+
+/* =================== SMALL SCREEN HEADER =================== */
+@media (max-width: 480px) {
+  .top-header {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+  }
+
+  .whatsapp-link {
+    font-size: 13px;
+    padding: 4px 10px;
+  }
+
+  .whatsapp-icon {
+    font-size: 18px;
+  }
+}
+/* Dropdown positioning fix */
+.services {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  padding: 10px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 180px;
+  z-index: 999;
+}
+
+.dropdown li {
+  padding: 8px 15px;
+}
+
+.dropdown li:hover {
+  background: #b38fb1;
+ 
+}
+
+/* Mobile fixes */
+@media (max-width: 768px) {
+  .bottom-header {
+    flex-direction: column;
+  }
+
+  .dropdown {
+    position: static;
+    box-shadow: none;
+    /* background: #fff; */
+    background: #946190;
+     color:#fff;
+  }
+
+  .services-title {
+    display: flex;
+    align-items: center;
+  }
+}

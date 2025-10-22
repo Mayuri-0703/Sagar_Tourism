@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .contact-container {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .contact-container h2 {
+    font-size: 26px;
+  }
+
+  .contact-section {
+    padding: 120px 15px 40px;
+  }
+}

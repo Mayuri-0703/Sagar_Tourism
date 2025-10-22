@@ -1,0 +1,220 @@
+/* .visa-section {
+  padding: 40px 20px; 
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* Heading */
+/* .visa-heading {
+  font-size: 48px;
+  font-weight: bold;
+  color:#914e86;
+  margin-bottom: 10px;
+} */
+/* 
+.visa-subtitle {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #555;
+} */
+
+/* Grid - fills full width */
+/* .visa-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* exactly 3 cards per row */
+  /* gap: 30px; /* small but equal gap */
+  /* margin: 0 auto;
+  max-width: 2000px; /* centers grid & controls width */
+/* }  */
+
+/* Card */
+/* .visa-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* all equal height */
+/* } */ 
+/* 
+.visa-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+} */
+
+/* Image */
+/* .visa-img {
+  width: 100%;
+  height: 260px; /* bigger image */
+  /* object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+} */ */
+
+/* Text */
+/* .visa-card h3 {
+  font-size: 22px;
+  color: #004466;
+  margin-bottom: 10px;
+} */
+/* 
+.visa-card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+  flex-grow: 1; /* keeps button at bottom */
+/* }  */
+
+/* Button */
+/* .apply-btn {
+  padding: 12px 20px;
+  background:#8a2985; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+} */
+
+/* .apply-btn:hover {
+  background: #4b0a40;
+} */
+
+/* Responsive */
+/* @media (max-width: 900px) {
+  .visa-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row */
+  /* }
+} */ 
+
+/* @media (max-width: 600px) {
+  .visa-grid {
+    /* grid-template-columns: 1fr; /* 1 per row */
+  /* }
+}  */ 
+
+.visa-section {
+  padding: 60px 20px; 
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* Headings */
+.visa-heading {
+  font-size: 46px;
+  font-weight: bold;
+  color: #914e86;
+  margin-bottom: 10px;
+}
+
+.visa-subtitle {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* Grid Layout */
+.visa-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0 20px;
+}
+
+/* Card */
+.visa-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Animation delay per card */
+.visa-card:nth-child(1) { animation-delay: 0.1s; }
+.visa-card:nth-child(2) { animation-delay: 0.2s; }
+.visa-card:nth-child(3) { animation-delay: 0.3s; }
+.visa-card:nth-child(4) { animation-delay: 0.4s; }
+.visa-card:nth-child(5) { animation-delay: 0.5s; }
+.visa-card:nth-child(6) { animation-delay: 0.6s; }
+.visa-card:nth-child(7) { animation-delay: 0.7s; }
+
+/* Hover animation */
+.visa-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.visa-img-container {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.visa-img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.4s ease;
+}
+
+.visa-card:hover .visa-img {
+  transform: scale(1.08);
+}
+
+/* Text */
+.visa-card h3 {
+  font-size: 22px;
+  color: #004466;
+  margin: 18px 0 8px;
+}
+
+.visa-card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+/* Button */
+.apply-btn {
+  padding: 12px 20px;
+  background: #8a2985;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.apply-btn:hover {
+  background: #4b0a40;
+}
+
+/* ✨ Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .testimonials-title {
+    font-size: 26px;
+  }
+
+  .testimonials-section {
+    padding: 60px 15px;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+  }
+}

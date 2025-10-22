@@ -1,0 +1,30 @@
+/* Responsive
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 90%;
+  }
+} */
+
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;   /* Centers image + text */
+    gap: 20px;             /* Adds breathing space */
+    padding: 0 20px;       /* Prevents side cutoffs */
+  }
+
+  .about-image img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .about-text {
+    max-width: 600px;      /* Keeps text readable */
+  }
+}

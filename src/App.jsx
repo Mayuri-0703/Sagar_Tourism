@@ -1,18 +1,21 @@
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import { useState } from "react";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Slider from "./components/Slider";
-import VisaSection from "./components/VisaSection";
-import ProcessSection from "./components/ProcessSection";
-import WhyChooseUs from "./components/WhyChooseUs";
-import FaqSection from "./components/FaqSection";
-import Testimonials from "./components/Testimonials";
-import InquiryForm from "./components/InquiryForm";
-import Partners from "./components/Partners";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/About/About";
+import Slider from "./components/Slider/Slider";
+import VisaSection from "./components/Visa/VisaSection";
+import ProcessSection from "./components/Process/ProcessSection";
+import WhyChooseUs from "./components/Why/WhyChooseUs";
+import FaqSection from "./components/FAQ/FaqSection";
+import Testimonials from "./components/Testimonials/Testimonials";
+import InquiryForm from "./components/Inquiry/InquiryForm";
+import Partners from "./components/Partners/Partners";
+import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 import VisaDetails from "./VisaDetails/VisaDetails";
-import Contact from "./components/Contact";
+
 
 function App() {
   const [selectedCountry, setSelectedCountry] = useState(null);

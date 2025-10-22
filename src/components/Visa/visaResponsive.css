@@ -1,0 +1,43 @@
+/* 📱 Responsive Design */
+@media (max-width: 1200px) {
+  .visa-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .visa-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .visa-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .visa-heading {
+    font-size: 34px;
+  }
+  .visa-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .visa-grid {
+    grid-template-columns: 1fr;
+  }
+  .visa-heading {
+    font-size: 28px;
+  }
+  .visa-subtitle {
+    font-size: 16px;
+  }
+  .visa-card {
+    padding: 15px;
+  }
+  .visa-img {
+    height: 220px;
+  }
+  .apply-btn {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
