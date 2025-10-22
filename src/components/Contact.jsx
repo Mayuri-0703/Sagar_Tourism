@@ -74,15 +74,13 @@
 
 // export default Contact;
 import React from "react";
-import Navbar from "../components/Navbar";  // ✅ Make sure this import is correct
+
 import "./contact.css";
 
 function Contact() {
 
   return (
-    <>
-      
-  <Navbar /> {/* ✅ Navbar always visible */}
+    <>  
       <section className="contact-section">
         <div className="contact-container">
           <h2>Contact Us</h2>

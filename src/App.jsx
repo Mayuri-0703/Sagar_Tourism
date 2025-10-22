@@ -51,7 +51,7 @@ function App() {
         />
 
         <Route
-          path="/Contact"
+          path="/contact"
           element={
             <>
               <Contact />

@@ -287,10 +287,10 @@ function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const location = useLocation();
 
-  // Hide Navbar on Contact page if you want only one header there
-  const hideNavbar = location.pathname === "/contact";
+  // // Hide Navbar on Contact page if you want only one header there
+  // const hideNavbar = location.pathname === "/contact";
 
-  if (hideNavbar) return null;
+  // if (hideNavbar) return null;
 
   return (
 

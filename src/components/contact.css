@@ -79,6 +79,12 @@
   }
 } */ 
  /* ✅ CONTACT SECTION */
+ /* ensure navbar is above contact section */
+.contact-section {
+  position: relative;
+  z-index: 0;
+  padding-top: 120px; /* enough space for fixed navbar */
+}
 .contact-section {
   min-height: 100vh;
   padding: 140px 20px 60px; /* extra top padding for fixed navbar */
