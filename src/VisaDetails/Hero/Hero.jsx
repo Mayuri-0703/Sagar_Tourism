@@ -1,4 +1,5 @@
 import "./hero.css";
+import "./heroResponsive.css";
 
 function Hero({ country, data, scrollToForm }) {
   return (

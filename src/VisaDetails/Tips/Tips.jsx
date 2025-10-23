@@ -1,4 +1,5 @@
 import "./tips.css";
+import "./tipsResponsive.css";
 
 function Tips({ tips }) {
   if (!tips) return null;

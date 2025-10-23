@@ -1,0 +1,28 @@
+/* 🌐 Responsive */
+@media (max-width: 992px) {
+  .visa-travel-info {
+    padding: 30px;
+  }
+  .travel-card img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .visa-travel-info {
+    padding: 20px;
+    margin: 60px auto;
+  }
+
+  .visa-travel-info h2 {
+    font-size: 1.7rem;
+  }
+
+  .travel-intro {
+    font-size: 1rem;
+  }
+
+  .travel-card img {
+    height: 160px;
+  }
+}

@@ -1,4 +1,6 @@
 import "./whyApply.css";
+import "./whyApplyResponsive.css";
+
 function WhyApply() {
   return (
     <section className="why-apply">

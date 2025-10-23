@@ -1,4 +1,5 @@
 import "./form.css";
+import "./formResponsive.css";
 
 function Form({ formRef }) {
   return (

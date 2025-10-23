@@ -1,0 +1,70 @@
+/* ✅ Large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .visa-documents ul {
+    gap: 25px;
+  }
+  .visa-documents li {
+    width: 120px;
+    height: 120px;
+    font-size: 0.95rem;
+  }
+}
+
+/* ✅ Tablets (900px and below) */
+@media (max-width: 900px) {
+  .visa-documents {
+    padding: 50px 15px;
+  }
+
+  .visa-documents h2 {
+    font-size: 30px;
+  }
+
+  .visa-documents p {
+    font-size: 16px;
+  }
+
+  .visa-documents ul {
+    gap: 20px;
+  }
+
+  .visa-documents li {
+    width: 110px;
+    height: 110px;
+    font-size: 0.9rem;
+  }
+}
+
+/* ✅ Mobile (600px and below) */
+@media (max-width: 600px) {
+  .visa-documents {
+    padding: 40px 10px;
+    border-radius: 20px;
+  }
+
+  .visa-documents h2 {
+    font-size: 26px;
+  }
+
+  .visa-documents p {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .visa-documents ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .visa-documents li {
+    width: 95px;
+    height: 95px;
+    font-size: 0.85rem;
+    box-shadow: 0 5px 14px rgba(0,0,0,0.1);
+  }
+
+  .visa-documents li:hover {
+    transform: scale(1.05);
+  }
+}

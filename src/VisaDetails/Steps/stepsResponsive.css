@@ -1,0 +1,29 @@
+/* 📱 Mobile (≤600px) */
+@media (max-width: 600px) {
+  .visa-steps {
+    padding: 40px 15px;
+  }
+
+  .visa-steps ol {
+    padding-left: 30px;
+  }
+
+  .visa-steps li {
+    font-size: 0.95rem;
+    padding: 12px 15px;
+  }
+
+  .visa-steps li::before {
+    width: 28px;
+    height: 28px;
+    left: -35px;
+    font-size: 0.9rem;
+  }
+}
+
+/* 💻 Tablet (≤900px) */
+@media (max-width: 900px) {
+  .visa-steps {
+    max-width: 90%;
+  }
+}

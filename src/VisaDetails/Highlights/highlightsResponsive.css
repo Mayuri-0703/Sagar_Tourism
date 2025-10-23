@@ -1,0 +1,36 @@
+/* 📱 Mobile (≤600px) */
+@media (max-width: 600px) {
+  .visa-highlights {
+    padding: 30px 15px;
+  }
+
+  .visa-highlights ul {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .visa-highlights li {
+    font-size: 0.95rem;
+    padding: 15px 10px;
+  }
+
+  .visa-highlights li::before {
+    font-size: 1.1rem;
+    top: 8px;
+    left: 10px;
+  }
+}
+
+/* 💻 Tablet (≤900px) */
+@media (max-width: 900px) {
+  .visa-highlights ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 🖥️ Large Screens (≥1200px) */
+@media (min-width: 1200px) {
+  .visa-highlights ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

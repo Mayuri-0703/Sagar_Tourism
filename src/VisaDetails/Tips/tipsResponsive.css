@@ -1,0 +1,20 @@
+/* 🌐 Responsive */
+@media (max-width: 992px) {
+  .visa-tips h2 {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .visa-tips {
+    padding: 15px;
+  }
+  .visa-tips h2 {
+    font-size: 1.6rem;
+  }
+  .visa-tips li {
+    font-size: 1rem;
+    flex-direction: row;
+    padding: 16px 18px;
+  }
+}

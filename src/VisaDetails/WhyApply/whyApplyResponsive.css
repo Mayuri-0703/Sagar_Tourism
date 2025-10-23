@@ -1,0 +1,24 @@
+/* * 🌐 Responsive */ 
+@media (max-width: 992px) {
+  .why-apply h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-apply ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .why-apply li {
+    padding-left: 25px;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .why-apply h2 {
+    font-size: 1.6rem;
+  }
+}

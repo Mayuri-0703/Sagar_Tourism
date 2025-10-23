@@ -1,5 +1,6 @@
 
 import "./travelInfo.css";
+import "./travelinfoResponsive.css";
 
 function TravelInfo({ travelInfo, country }) {
   if (!travelInfo) return null;

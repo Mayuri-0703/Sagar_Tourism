@@ -1,0 +1,27 @@
+
+/* 🌐 Responsive Design */
+@media (max-width: 992px) {
+  .hero-overlay h1 {
+    font-size: 2.3rem;
+  }
+  .hero-overlay p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .visa-hero {
+    height: 80vh;
+  }
+  .hero-overlay h1 {
+    font-size: 1.8rem;
+  }
+  .hero-overlay p {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+  .cta-btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}

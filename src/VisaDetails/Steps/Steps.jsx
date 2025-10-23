@@ -1,4 +1,5 @@
 import "./steps.css";
+import "./stepsResponsive.css";
 
 function Steps({ steps }) {
   if (!steps) return null;

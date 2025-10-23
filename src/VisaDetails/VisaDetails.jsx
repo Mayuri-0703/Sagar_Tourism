@@ -7,14 +7,14 @@ import Footer from "../components/Footer/Footer";
 import "./visaDetails.css";
 
 // Import small components
-import Hero from "./Hero";
-import Documents from "./Documents";
-import Highlights from "./Highlights";
-import Steps from "./Steps";
-import Form from "./Form";
-import Tips from "./Tips";
-import TravelInfo from "./TravelInfo";
-import WhyApply from "./WhyApply";
+import Hero from "./Hero/Hero";
+import Documents from "./Documents/Documents";
+import Highlights from "./Highlights/Highlights";
+import Steps from "./Steps/Steps";
+import Form from "./Form/Form";
+import Tips from "./Tips/Tips";
+import TravelInfo from "./TravelInfo/TravelInfo";
+import WhyApply from "./WhyApply/WhyApply";
 
 function VisaDetails() {
   const { country } = useParams();

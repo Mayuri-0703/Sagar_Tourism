@@ -1,4 +1,5 @@
 import "./documents.css";
+import "./documentsResponsive.css";
 
 function Documents({ documents }) {
   if (!documents) return null;

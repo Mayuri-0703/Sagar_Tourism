@@ -1,0 +1,41 @@
+/* 💻 Tablet (≤992px) */
+@media (max-width: 992px) {
+  .form-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .form-box {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .form-image {
+    margin-top: 25px;
+  }
+}
+
+/* 📱 Mobile (≤600px) */
+@media (max-width: 600px) {
+  .visa-form-section {
+    padding: 30px 5%;
+  }
+
+  .form-heading {
+    font-size: 1.4rem;
+  }
+
+  .form-box {
+    padding: 20px;
+  }
+
+  .form-image img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .submit-btn {
+    font-size: 0.95rem;
+  }
+}
