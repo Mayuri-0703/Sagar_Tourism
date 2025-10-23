@@ -266,7 +266,7 @@ const visaData = {
   srilanka: {
     title: "Sri Lanka ETA Visa",
     description: "Electronic Travel Authorization. Processing: 1-3 days.",
-    video: "https://drive.google.com/uc?export=download&id=1xfmvWfZP4mY9af115or1rmXMfk6Zabm2",
+    video: "https://player.cloudinary.com/embed/?cloud_name=dwz52cxwt&public_id=SRILANKA_1_tn6lcn&profile=cld-default",
     image: null,
     documents: ["Passport (valid for 6 months)", "Passport-size photograph"],
     highlights: ["ETA valid for 30 days", "Quick online processing", "Tourist and business options"],
