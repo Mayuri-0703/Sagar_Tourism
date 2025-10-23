@@ -3,7 +3,7 @@ const visaData = {
   dubai: {
     title: "Dubai Tourist / Work / Visit Visa",
     description: "Apply for Dubai visa easily. Fill the form below to start your application process.",
-    video: "https://drive.google.com/uc?export=download&id=1AYnGy9VBQe78R1BDvVru_36gGvGAPTSN",
+    video: "https://res.cloudinary.com/dwz52cxwt/video/upload/v1761207716/DUBAI_e0pd6s.mp4",
     documents: [
       "Passport (valid for 6 months)",
       "Passport-size photograph",
@@ -51,7 +51,7 @@ const visaData = {
   USA: {
     title: "USA Business & Tourist Visa (B1/B2)",
     description: "Apply for USA visa. Interview required for approval.",
-    video: "https://drive.google.com/uc?export=download&id=1wJOZDujbi4ThZG4ujoV2068q52fRJ_Ie",
+    video: "https://res.cloudinary.com/dwz52cxwt/video/upload/v1761207823/USA1_nmp03w.mp4",
     image: "/USA.jpg",
     documents: [
       "Passport (valid for 6 months)",
@@ -95,7 +95,7 @@ const visaData = {
   schengen: {
     title: "Schengen Visa",
     description: "Travel across 26 European countries. Processing: 15 days.",
-    video: "https://drive.google.com/uc?export=download&id=1i-jjx-wv-uMCKvCScOu1RyuOIdMxfuwm",
+    video: "https://res.cloudinary.com/dwz52cxwt/video/upload/v1761207536/SCHENGAN_wl1rf6.mp4",
     image: null,
     documents: [
       "A Completed Application Form",
@@ -145,7 +145,7 @@ const visaData = {
   thailand: {
     title: "Thailand Tourist / e-Visa",
     description: "Tourist, Visa on Arrival & e-Visa available. Processing: 2-5 days.",
-    video: "https://drive.google.com/uc?export=download&id=11-l2ZLql24IWoJt2PWDdFnIA2Ol7TwzV",
+    video: "https://res.cloudinary.com/dwz52cxwt/video/upload/v1761207565/THAILAND_in0lxk.mp4",
     image: null,
     documents: ["Passport (valid for 6 months)", "Passport-size photograph", "Flight or Travel Details", "Accomodation Details"],
     highlights: ["Tourist visa up to 60 days", "Quick e-Visa processing", "Visa on Arrival option available"],
@@ -185,7 +185,7 @@ const visaData = {
   malaysia: {
     title: "Malaysia Tourist / eNTRI / Work Visa",
     description: "Processing: 3-7 days. Fill form below to apply.",
-    video: "https://drive.google.com/uc?export=download&id=1nHqYL3K8bbhbe1iR_0kdGdtT4mibH1X-",
+    video: "https://res.cloudinary.com/dwz52cxwt/video/upload/v1761207947/MALAYSIA_veyri5.mp4",
     image: null,
     documents: [
       "Valid Passport",
@@ -227,7 +227,7 @@ const visaData = {
   vietnam: {
     title: "Vietnam Tourist / e-Visa",
     description: "Processing: 3-5 days. Apply online quickly.",
-    video: "https://drive.google.com/uc?export=download&id=1kfsSk6rsXzKeUuGkq3EsQO0c95tGCapp",
+    video: "https://res.cloudinary.com/dwz52cxwt/video/upload/v1761207918/VIETNAM_1_mefhay.mp4",
     image: null,
     documents: [
       "Passport (valid for 6 months)",
@@ -266,7 +266,7 @@ const visaData = {
   srilanka: {
     title: "Sri Lanka ETA Visa",
     description: "Electronic Travel Authorization. Processing: 1-3 days.",
-    video: "https://player.cloudinary.com/embed/?cloud_name=dwz52cxwt&public_id=SRILANKA_1_tn6lcn&profile=cld-default",
+    video:"https://res.cloudinary.com/dwz52cxwt/video/upload/v1761207951/SRILANKA_1_tn6lcn.mp4",
     image: null,
     documents: ["Passport (valid for 6 months)", "Passport-size photograph"],
     highlights: ["ETA valid for 30 days", "Quick online processing", "Tourist and business options"],
