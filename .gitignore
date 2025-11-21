@@ -1,5 +1,42 @@
+# # Logs
+# logs
+# *.log
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
+# lerna-debug.log*
+
+# node_modules
+# dist
+# dist-ssr
+# *.local
+
+# # Editor directories and files
+# .vscode/*
+# !.vscode/extensions.json
+# .idea
+# .DS_Store
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+# *.sw?
+# # # Ignore videos
+# # *.mp4
+# # *.avi
+# # *.mov
+# # *.zip
+
+# # Node modules and build files
+# node_modules/
+# dist/
+
+# # Ignore videos folder
+# /public/VisaDetails/Videos/
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,30 +44,25 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node modules and build files
+node_modules/
+dist/
+dist-ssr/
+
+# Environment files
+.env
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-# # Ignore videos
-# *.mp4
-# *.avi
-# *.mov
-# *.zip
 
-# Node modules and build files
-node_modules/
-dist/
-
-# Ignore videos folder
-/public/VisaDetails/Videos/
+# Ignore videos folder (specific to backend)
+public/VisaDetails/Videos/
